@@ -9,10 +9,10 @@ a=int(input("Enter the no of scrolls you want to perform: "))
 def scroll():
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
-//add your chromedriver path
+#add your chromedriver path
 driver = webdriver.Chrome("your chrome driver path")
 
-//add the facebook page link whose data you want to scrape
+#add the facebook page link whose data you want to scrape
 driver.get('https://www.facebook.com/pg/abc/reviews/?ref=page_internal')
 
 driver.maximize_window()
