@@ -1,6 +1,6 @@
 # Facebook-scraper
 
-A python script to scraper data from facebook pages.
+A python script to scrape the data from facebook pages.
 
 ## Steps
 
